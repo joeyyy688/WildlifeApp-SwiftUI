@@ -12,6 +12,10 @@
 		0474302E2A5F43A200C30566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0474302D2A5F43A200C30566 /* Assets.xcassets */; };
 		047430312A5F43A200C30566 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047430302A5F43A200C30566 /* Preview Assets.xcassets */; };
 		0474303D2A5F6E4500C30566 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 0474303C2A5F6E4500C30566 /* data */; };
+		0474304C2A5F7CCC00C30566 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474304B2A5F7CCC00C30566 /* VideoListView.swift */; };
+		0474304E2A5F7CDE00C30566 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474304D2A5F7CDD00C30566 /* MapView.swift */; };
+		047430502A5F7CF900C30566 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474304F2A5F7CF800C30566 /* GalleryView.swift */; };
+		047430522A5F7D0700C30566 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047430512A5F7D0700C30566 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		047430482A5F706900C30566 /* giraffe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.mp4; sourceTree = "<group>"; };
 		047430492A5F706900C30566 /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
 		0474304A2A5F722700C30566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0474304B2A5F7CCC00C30566 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		0474304D2A5F7CDD00C30566 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		0474304F2A5F7CF800C30566 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		047430512A5F7D0700C30566 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,10 @@
 			children = (
 				047430292A5F43A100C30566 /* WildlifeApp.swift */,
 				0474302B2A5F43A100C30566 /* ContentView.swift */,
+				0474304B2A5F7CCC00C30566 /* VideoListView.swift */,
+				0474304D2A5F7CDD00C30566 /* MapView.swift */,
+				0474304F2A5F7CF800C30566 /* GalleryView.swift */,
+				047430512A5F7D0700C30566 /* MainView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -204,7 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0474302C2A5F43A100C30566 /* ContentView.swift in Sources */,
+				047430522A5F7D0700C30566 /* MainView.swift in Sources */,
+				0474304E2A5F7CDE00C30566 /* MapView.swift in Sources */,
 				0474302A2A5F43A100C30566 /* WildlifeApp.swift in Sources */,
+				0474304C2A5F7CCC00C30566 /* VideoListView.swift in Sources */,
+				047430502A5F7CF900C30566 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
