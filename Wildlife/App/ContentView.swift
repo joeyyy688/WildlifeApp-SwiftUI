@@ -14,6 +14,10 @@ struct ContentView: View {
                 CoverImageView(images: coverImagesData)
                     .frame(height: 300)
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                
+                ForEach(animalsData.shuffled()) { item in
+                    AnimalListItem(data: item)
+                }
             }//: LIST
             .navigationBarTitle("Africa", displayMode: .large)
         }//: NAVIGATION VIEW

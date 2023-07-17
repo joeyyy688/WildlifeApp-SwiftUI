@@ -11,6 +11,8 @@
 		042FB81E2A65B76B0067CD7E /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 042FB81A2A65B76B0067CD7E /* locations.json */; };
 		042FB81F2A65B76B0067CD7E /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 042FB81B2A65B76B0067CD7E /* covers.json */; };
 		042FB8202A65B76B0067CD7E /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 042FB81C2A65B76B0067CD7E /* videos.json */; };
+		042FB8222A65F1030067CD7E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FB8212A65F1030067CD7E /* Animal.swift */; };
+		042FB8242A65F4220067CD7E /* AnimalListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FB8232A65F4220067CD7E /* AnimalListItem.swift */; };
 		0474302A2A5F43A100C30566 /* WildlifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047430292A5F43A100C30566 /* WildlifeApp.swift */; };
 		0474302C2A5F43A100C30566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474302B2A5F43A100C30566 /* ContentView.swift */; };
 		0474302E2A5F43A200C30566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0474302D2A5F43A200C30566 /* Assets.xcassets */; };
@@ -20,7 +22,7 @@
 		047430502A5F7CF900C30566 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474304F2A5F7CF800C30566 /* GalleryView.swift */; };
 		047430522A5F7D0700C30566 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047430512A5F7D0700C30566 /* MainView.swift */; };
 		04F7F2672A60C0F4008C68AB /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F2662A60C0F4008C68AB /* CoverImageView.swift */; };
-		04F7F26B2A60C36A008C68AB /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F26A2A60C36A008C68AB /* CoverImageModel.swift */; };
+		04F7F26B2A60C36A008C68AB /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F26A2A60C36A008C68AB /* CoverImage.swift */; };
 		04F7F26E2A60C4AE008C68AB /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F26D2A60C4AE008C68AB /* Loader.swift */; };
 		04F7F2702A60C5F7008C68AB /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F26F2A60C5F7008C68AB /* AppData.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		042FB81A2A65B76B0067CD7E /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		042FB81B2A65B76B0067CD7E /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		042FB81C2A65B76B0067CD7E /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		042FB8212A65F1030067CD7E /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		042FB8232A65F4220067CD7E /* AnimalListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItem.swift; sourceTree = "<group>"; };
 		047430262A5F43A100C30566 /* Wildlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wildlife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047430292A5F43A100C30566 /* WildlifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildlifeApp.swift; sourceTree = "<group>"; };
 		0474302B2A5F43A100C30566 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,7 +55,7 @@
 		0474304F2A5F7CF800C30566 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		047430512A5F7D0700C30566 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		04F7F2662A60C0F4008C68AB /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
-		04F7F26A2A60C36A008C68AB /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		04F7F26A2A60C36A008C68AB /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
 		04F7F26D2A60C4AE008C68AB /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		04F7F26F2A60C5F7008C68AB /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				04F7F2662A60C0F4008C68AB /* CoverImageView.swift */,
+				042FB8232A65F4220067CD7E /* AnimalListItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,7 +164,8 @@
 		0474303E2A5F6E5E00C30566 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				04F7F26A2A60C36A008C68AB /* CoverImageModel.swift */,
+				04F7F26A2A60C36A008C68AB /* CoverImage.swift */,
+				042FB8212A65F1030067CD7E /* Animal.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 				047430522A5F7D0700C30566 /* MainView.swift in Sources */,
 				04F7F2672A60C0F4008C68AB /* CoverImageView.swift in Sources */,
 				0474304E2A5F7CDE00C30566 /* MapView.swift in Sources */,
+				042FB8242A65F4220067CD7E /* AnimalListItem.swift in Sources */,
 				0474302A2A5F43A100C30566 /* WildlifeApp.swift in Sources */,
-				04F7F26B2A60C36A008C68AB /* CoverImageModel.swift in Sources */,
+				042FB8222A65F1030067CD7E /* Animal.swift in Sources */,
+				04F7F26B2A60C36A008C68AB /* CoverImage.swift in Sources */,
 				0474304C2A5F7CCC00C30566 /* VideoListView.swift in Sources */,
 				047430502A5F7CF900C30566 /* GalleryView.swift in Sources */,
 				04F7F26E2A60C4AE008C68AB /* Loader.swift in Sources */,

@@ -8,4 +8,5 @@
 import Foundation
 
 
-let coverImagesData : [CoverImageModel] = jsonLoader("covers.json")
+let coverImagesData : [CoverImage] = jsonLoader("covers.json")
+let animalsData: [Animal] = jsonLoader("animals.json")
