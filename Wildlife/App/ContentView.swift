@@ -9,10 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Content")
-        }
-        .padding()
+        NavigationView {
+            List{
+                CoverImageView(images: coverImagesData)
+                    .frame(height: 300)
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+            }//: LIST
+            .navigationBarTitle("Africa", displayMode: .large)
+        }//: NAVIGATION VIEW
     }
 }
 
