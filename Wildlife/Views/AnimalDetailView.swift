@@ -46,6 +46,13 @@ struct AnimalDetailView: View {
                 }
                 .padding(.vertical, 10)
                 
+                Group{
+                    HeadingView(iconName: "questionmark.circle", text: "Did you know?")
+                    
+                    InsetFactView(animal: animal)
+                }
+                .padding(.vertical, 10)
+                
                 
                 
             }//: VSTACK
