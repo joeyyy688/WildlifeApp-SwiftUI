@@ -16,7 +16,10 @@ struct ContentView: View {
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 
                 ForEach(animalsData.shuffled()) { item in
-                    AnimalListItem(data: item)
+                    NavigationLink(destination: AnimalDetailView(animal: item)){
+                        AnimalListItem(data: item)
+                    }
+                    
                 }
             }//: LIST
             .navigationBarTitle("Africa", displayMode: .large)

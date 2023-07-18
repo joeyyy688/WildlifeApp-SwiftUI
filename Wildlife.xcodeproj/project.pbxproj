@@ -13,6 +13,9 @@
 		042FB8202A65B76B0067CD7E /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 042FB81C2A65B76B0067CD7E /* videos.json */; };
 		042FB8222A65F1030067CD7E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FB8212A65F1030067CD7E /* Animal.swift */; };
 		042FB8242A65F4220067CD7E /* AnimalListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FB8232A65F4220067CD7E /* AnimalListItem.swift */; };
+		042FB8282A6604F50067CD7E /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FB8272A6604F50067CD7E /* AnimalDetailView.swift */; };
+		042FB82A2A660B220067CD7E /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FB8292A660B220067CD7E /* HeadingView.swift */; };
+		042FB82E2A660D7A0067CD7E /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FB82D2A660D7A0067CD7E /* InsetGalleryView.swift */; };
 		0474302A2A5F43A100C30566 /* WildlifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047430292A5F43A100C30566 /* WildlifeApp.swift */; };
 		0474302C2A5F43A100C30566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474302B2A5F43A100C30566 /* ContentView.swift */; };
 		0474302E2A5F43A200C30566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0474302D2A5F43A200C30566 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 		042FB81C2A65B76B0067CD7E /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		042FB8212A65F1030067CD7E /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		042FB8232A65F4220067CD7E /* AnimalListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItem.swift; sourceTree = "<group>"; };
+		042FB8272A6604F50067CD7E /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		042FB8292A660B220067CD7E /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		042FB82D2A660D7A0067CD7E /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		047430262A5F43A100C30566 /* Wildlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wildlife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047430292A5F43A100C30566 /* WildlifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildlifeApp.swift; sourceTree = "<group>"; };
 		0474302B2A5F43A100C30566 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -149,6 +155,9 @@
 			children = (
 				04F7F2662A60C0F4008C68AB /* CoverImageView.swift */,
 				042FB8232A65F4220067CD7E /* AnimalListItem.swift */,
+				042FB8272A6604F50067CD7E /* AnimalDetailView.swift */,
+				042FB8292A660B220067CD7E /* HeadingView.swift */,
+				042FB82D2A660D7A0067CD7E /* InsetGalleryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -271,11 +280,14 @@
 			files = (
 				0474302C2A5F43A100C30566 /* ContentView.swift in Sources */,
 				047430522A5F7D0700C30566 /* MainView.swift in Sources */,
+				042FB82E2A660D7A0067CD7E /* InsetGalleryView.swift in Sources */,
 				04F7F2672A60C0F4008C68AB /* CoverImageView.swift in Sources */,
 				0474304E2A5F7CDE00C30566 /* MapView.swift in Sources */,
 				042FB8242A65F4220067CD7E /* AnimalListItem.swift in Sources */,
+				042FB82A2A660B220067CD7E /* HeadingView.swift in Sources */,
 				0474302A2A5F43A100C30566 /* WildlifeApp.swift in Sources */,
 				042FB8222A65F1030067CD7E /* Animal.swift in Sources */,
+				042FB8282A6604F50067CD7E /* AnimalDetailView.swift in Sources */,
 				04F7F26B2A60C36A008C68AB /* CoverImage.swift in Sources */,
 				0474304C2A5F7CCC00C30566 /* VideoListView.swift in Sources */,
 				047430502A5F7CF900C30566 /* GalleryView.swift in Sources */,
