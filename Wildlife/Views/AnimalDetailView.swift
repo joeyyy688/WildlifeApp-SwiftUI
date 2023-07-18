@@ -44,15 +44,37 @@ struct AnimalDetailView: View {
                     
                     InsetGalleryView(animal: animal)
                 }
-                .padding(.vertical, 10)
+                .padding(.horizontal)
                 
                 Group{
                     HeadingView(iconName: "questionmark.circle", text: "Did you know?")
                     
                     InsetFactView(animal: animal)
                 }
-                .padding(.vertical, 10)
+                .padding(.horizontal)
                 
+                Group{
+                    HeadingView(iconName: "info.circle", text: "All about \(animal.name)")
+                    
+                    Text(animal.description)
+                        .font(.system(.headline))
+                        .multilineTextAlignment(.leading)
+                        .layoutPriority(1)
+                }
+                .padding(.horizontal)
+                
+                Group{
+                    HeadingView(iconName: "map", text: "National Parks")
+                    
+                    InsetMapView()
+                }
+                .padding(.horizontal)
+                
+                Group{
+                    HeadingView(iconName: "books.vertical", text: "Learn More")
+                    ExternalWebLinkView(animal: animal)
+                }
+                .padding(.horizontal)
                 
                 
             }//: VSTACK

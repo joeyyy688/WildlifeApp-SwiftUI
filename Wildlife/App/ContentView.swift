@@ -16,7 +16,9 @@ struct ContentView: View {
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 
                 ForEach(animalsData.shuffled()) { item in
-                    NavigationLink(destination: AnimalDetailView(animal: item)){
+                    NavigationLink {
+                        AnimalDetailView(animal: item)
+                    } label: {
                         AnimalListItem(data: item)
                     }
                     
