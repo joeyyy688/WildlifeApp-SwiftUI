@@ -17,7 +17,7 @@ struct VideoListView: View {
             List{
                 ForEach(videoListData) { item in
                     NavigationLink {
-                        VideoDetailsView(video: item)
+                        VideoPlayerView(video: item)
                     } label: {
                         VideoListItemView(data: item)
                             .padding(.vertical, 8)
