@@ -30,6 +30,7 @@
 		0474304E2A5F7CDE00C30566 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474304D2A5F7CDD00C30566 /* MapView.swift */; };
 		047430502A5F7CF900C30566 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474304F2A5F7CF800C30566 /* GalleryView.swift */; };
 		047430522A5F7D0700C30566 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047430512A5F7D0700C30566 /* MainView.swift */; };
+		047804982A6AD006005681FD /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047804972A6AD006005681FD /* MotionAnimationView.swift */; };
 		04A574E52A6851AA0062113F /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04A574DB2A6851A80062113F /* rhino.mp4 */; };
 		04A574E62A6851AA0062113F /* giraffe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04A574DC2A6851A90062113F /* giraffe.mp4 */; };
 		04A574E72A6851AA0062113F /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04A574DD2A6851A90062113F /* cheetah.mp4 */; };
@@ -75,6 +76,7 @@
 		0474304D2A5F7CDD00C30566 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0474304F2A5F7CF800C30566 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		047430512A5F7D0700C30566 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		047804972A6AD006005681FD /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		04A574DB2A6851A80062113F /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
 		04A574DC2A6851A90062113F /* giraffe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.mp4; sourceTree = "<group>"; };
 		04A574DD2A6851A90062113F /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				045953DE2A675F7000838AD5 /* VideoListItemView.swift */,
 				045953E02A6764CA00838AD5 /* VideoPlayerView.swift */,
 				04A574F42A68AD260062113F /* MapAnnotationView.swift */,
+				047804972A6AD006005681FD /* MotionAnimationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				04F7F26E2A60C4AE008C68AB /* Loader.swift in Sources */,
 				04A574F12A685BFA0062113F /* VideoPlayerHelper.swift in Sources */,
 				04F7F2702A60C5F7008C68AB /* AppData.swift in Sources */,
+				047804982A6AD006005681FD /* MotionAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
